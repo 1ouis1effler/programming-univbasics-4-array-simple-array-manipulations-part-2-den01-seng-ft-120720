@@ -10,4 +10,7 @@ def using_insert(array, element)
     @new_array = @list_of_programming_languages.insert(4, @another_language)
   end 
   
-  
+  def using_uniq(captain_planet_and_the_planeteers)
+  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+  new_array = captain_planet_and_the_planeteers.uniq
+end
