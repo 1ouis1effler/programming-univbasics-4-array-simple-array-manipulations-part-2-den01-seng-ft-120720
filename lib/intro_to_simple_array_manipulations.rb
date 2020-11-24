@@ -1,5 +1,5 @@
-def using_concat(@all_my_favs, @more_favs)
-  cars = ["]
-  trucks = ["Ram", "F150", "Loader"]
-  cars_and_trucks = cars.concat(trucks)
+def using_concat(my_favorite_things, more_favs)
+  @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+  more_favs = ["sports car", "flatiron school"]
+  @all_my_favs = @my_favorite_things.concat(more_favs)
 end
