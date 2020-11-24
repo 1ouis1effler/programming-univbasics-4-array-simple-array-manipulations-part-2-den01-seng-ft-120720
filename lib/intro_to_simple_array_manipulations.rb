@@ -20,8 +20,8 @@ def using_flatten(private_colleges_in_newyork)
   flat_array = private_colleges_in_newyork.flatten
 end
 
-def using_delete(my_list, my_element)
-  my_list.delete(my_element)
+#def using_delete(my_list, my_element)
+ # my_list.delete(my_element)
 end
 
 def using_delete_at(famous_robots, integer)
