@@ -1,4 +1,4 @@
-def using_concat(cars, trucks)
+def using_concat(@all_my_favs, @)
   cars = ["Ford", "Fiat", "Dodge"]
   trucks = ["Ram", "F150", "Loader"]
   cars_and_trucks = cars.concat(trucks)
