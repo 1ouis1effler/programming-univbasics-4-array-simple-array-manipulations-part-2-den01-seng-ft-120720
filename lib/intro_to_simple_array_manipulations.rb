@@ -16,8 +16,3 @@ def using_insert(array, element)
 end
 
 
-def using_flatten(instruments)
-   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-   flat_array = instruments.flatten 
-  end
-end
