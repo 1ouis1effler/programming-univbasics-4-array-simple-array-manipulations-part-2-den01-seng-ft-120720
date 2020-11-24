@@ -16,6 +16,6 @@ def using_insert(array, element)
 end
 
 def using_flatten(cities_in_new_york)
-  cities_in_new_york = ["Buffalo", "Rochester", ["NYC", "Brooklyn"] "Cooperstown", "Albany"]
+  cities_in_new_york = ["Buffalo", "Rochester", ["NYC", "Brooklyn"], "Cooperstown", "Albany"]
   flat_array = cities_in_new_york.flatten
 end
