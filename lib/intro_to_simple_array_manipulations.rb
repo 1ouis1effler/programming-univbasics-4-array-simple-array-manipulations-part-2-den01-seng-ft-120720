@@ -15,6 +15,7 @@ def using_insert(array, element)
   new_array = captain_planet_and_the_planeteers.uniq
 end
 
+
 def using_flatten(instruments)
    instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
    flat_array = instruments.flatten 
