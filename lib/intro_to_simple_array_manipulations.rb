@@ -14,3 +14,7 @@ def using_insert(array, element)
   captain_planet_and_the_planeteers =  ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"]
   new_array = captain_planet_and_the_planeteers.uniq
 end
+
+def using_flatten
+  
+end 
